@@ -17,22 +17,23 @@
 		<div>
 			<h1 align="center">Ejercicio de AJAX</h1>
 			<h2>Peticiones As&iacute;ncronas en este a&ntilde;o</h2>
+		</div>
+		<div>
+			<h3>Agregar Disfraz</h3>
+			<input type="number" id="costume_id" placeholder="codigo">
+			<input type="text" id="costume_name" placeholder="nombre">
+			<input type="number" id="costume_category" placeholder="categoria">
+			<input type="text" id="costume_brand" placeholder="marca">
+			<input type="number" id="costume_year" placeholder="modelo (a&ntilde;o)">
+			<button onclick="saveCostume();">Guardar</button>
+		</div>
+		<div>
+			<h3>Disfraces en la Tienda</h3>
 			<button onclick="getCostumes()">Consultar Disfraces</button>
 		</div>
 		<br />
-		<div>
-			<table style="border: 1px solid">
-				<tr>
-					<th>Columna 1<th/>
-					<th>Columna 2<th/>
-				</tr>
-				<tr>
-					<td>Dato 1</td>
-					<td>Dato 2</td>
-				</tr>
-			</table>
-		</div>
-		<div>
+		<div id="result">
+			<!-- interna -->
 		</div>
 	</body>
 </html>
